@@ -1,1 +1,22 @@
 @import '~bootstrap/scss/bootstrap';
+
+#display-gif {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50vh;
+  width: 1000px;
+  border: solid black 2px;
+}
+
+h1 {
+  font-family: serif;
+  font-style: bold;
+}
+
+input {
+  background-color: #f56342;
+  width: 800px;
+  padding: 7px 15px;
+  color: white;
+}

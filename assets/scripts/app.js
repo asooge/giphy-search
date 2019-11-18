@@ -1,5 +1,5 @@
 'use strict'
-
+const events = require('./gif/events.js')
 // use require with a reference to bundle the file and use it in this file
 // const example = require('./example')
 
@@ -7,5 +7,5 @@
 // require('./example')
 
 $(() => {
-  // your JS code goes here
+  $('#search').on('click', events.onGifSearch)
 })
