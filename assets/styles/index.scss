@@ -1,22 +1,44 @@
 @import '~bootstrap/scss/bootstrap';
 
+body {
+  display: inline-block;
+  margin: auto;
+  padding: 15px;
+}
+
 #display-gif {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 50vh;
+  // height: 450px;
   width: 1000px;
-  border: solid black 2px;
+  // border: solid black 2px;
 }
 
 h1 {
   font-family: serif;
-  font-style: bold;
+  font-weight: bold;
+  font-size: 26px;
 }
 
 input {
   background-color: #f56342;
   width: 800px;
-  padding: 7px 15px;
+  padding: 7px 20px;
   color: white;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  background-color: #326da8;
+  padding: 3px 20px;
+  right: 3px;
+}
+
+.gif {
+  padding: 10px;
+  margin: 0;
 }

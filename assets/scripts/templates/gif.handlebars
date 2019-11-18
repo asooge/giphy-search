@@ -1,7 +1,7 @@
 {{#each gifs as |gif|}}
   {{log gif}}
-  <div class='gif'>
+  <!-- <div class='gif'> -->
     <!-- <iframe src={{gif.embed_url}} width="300px" height="200px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
-    <img src="https://media.giphy.com/media/{{gif.id}}/giphy.gif" width="300px" height="200px">
-  </div>
+    <img class='gif' src="https://media.giphy.com/media/{{gif.id}}/giphy.gif" width="300px" height="200px">
+  <!-- </div> -->
 {{/each}}
