@@ -8,4 +8,5 @@ const events = require('./gif/events.js')
 
 $(() => {
   $('#search').on('click', events.onGifSearch)
+  $('input[type=radio]').on('change', events.setDisplayNum)
 })

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Giphy Searcher</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -13,11 +13,29 @@
     </head>
     <body>
       <h1>Giphy Searcher</h1>
+      <div class=display-number>
+        Number of gifs per page:
+        <input type="radio" name="gif-number" value="10" checked='true'> 10
+        <input type="radio" name="gif-number" value="20"> 20
+        <input type="radio" name="gif-number" value="50"> 50
+      </div>
       <form>
         <input id='search-text' type='text' placeholder="enter your search">
         <button id='search'>SEARCH</button>
       </form>
       <div id='display-gif'>
+      </div>
+
+      <!-- pagination -->
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
       </div>
     </body>
 </html>

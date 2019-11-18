@@ -15,13 +15,17 @@ body {
   // border: solid black 2px;
 }
 
+.display-number {
+  display: inline;
+}
+
 h1 {
   font-family: serif;
   font-weight: bold;
   font-size: 26px;
 }
 
-input {
+#search-text {
   background-color: #f56342;
   width: 800px;
   padding: 7px 20px;
@@ -41,4 +45,17 @@ button {
 .gif {
   padding: 10px;
   margin: 0;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
 }
